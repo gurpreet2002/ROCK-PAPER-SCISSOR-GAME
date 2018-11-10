@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styleproject.css" type="text/css" rel="stylesheet">
+
+</head>
+<title>my first project</title>
+<body>
+    <h1>ROCK!    PAPER!!    SCISSOR!!!</h1>
+    <script>
+        var input= prompt("choose one from rock , paper or scissor");
+var cinput =["scissor","paper","rock"];
+var output=(cinput[
+(Math.round(Math.random()*2))])
+if (input ==="rock" && output==="paper"){
+document.write("You lose") }
+else if (input==="paper" && output==="rock"){
+  alert("You won")
+}
+else if (input==="scissor" && output==="rock"){
+  alert("You lose")
+}
+else if (input==="paper" && output==="scissor"){
+  alert("You lose")
+}
+else if (input==="rock" && output==="scissor"){
+  alert("You won")
+}
+else if (input==="paper" && output==="rock"){
+  alert("you won")
+}
+else if (input==="scissor" && output==="paper"){
+  alert("you won")
+}
+else{alert("SORRY!!! Try Again")}
+    </script>
+
+
+        
+
+</body>
+</html>
